@@ -6,13 +6,40 @@
   - Checkout ARCMAP
 - [GOOGLE OR](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjEq7nzwaPyAhXS4jgGHbNlBpwQjBAwAnoECBcQAQ&url=https%3A%2F%2Fdevelopers.google.com%2Foptimization%2Frouting%2Frouting_options&usg=AOvVaw01QKtOiYWb65TzGau573cq)
 ---
+## Algorithms
+- Genetic algo(GA).
+- Tabu search(TS).
+- Simulated Annealing(SA).
+- Ant colony system.
+- Particle Swarm Optimisation 
+- RPS - DRP (distribution req planning)
+- RPS - MAS 
+- Dynamic programming approaches
+- SVRP
+- DQN (Deep Q Network - combination of RL and CNN)
+- OCaPi
+- Grey Wolf Optimizer (CGWO)
+
+
+
+---
 ## IDEA:
 - INPUT: SRC, DEST, Depots (list)
 - STANDARD DATA: Google API (place -> lat, long)
     - Depot - frequency of item deliveries; traffic
     - Cost  - freight weight (balancing load) and transportation cost
     - Distance - time => cost factor 1
-    - Delivery urgency - priority based
+    - Delivery urgency - priority based (Time window penalty cost)
+    - Fuel efficiency, Carbon emissions
+    - Freshness degradation (for cold logistics alone)
+    - Road, traffic, weather
+    - Vehicle conditions
+    - Driving hours and rest
+    - (Fleet management)
+    - Energy use
+    - Safety and security
+    - Economic Health
+    - Ecosystem impacts
 - OUTPUT: Routes + time factor => best k solutions
 - METHODOLOGY: Equation based on all factors - try to optimise the score 
 
