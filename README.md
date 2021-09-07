@@ -12,7 +12,13 @@
     - Depot - frequency of item deliveries; traffic
     - Cost  - freight weight (balancing load) and transportation cost
     - Distance - time => cost factor 1
-    - Delivery urgency - priority based
+    - Delivery urgency - priority based (Time window penalty cost)
+    - Fuel efficiency, Carbon emissions
+    - Freshness degradation (for cold logistics alone)
+    - Road, traffic, weather
+    - Vehicle conditions
+    - Driving hours and rest
+    - (Fleet management)
 - OUTPUT: Routes + time factor => best k solutions
 - METHODOLOGY: Equation based on all factors - try to optimise the score 
 
