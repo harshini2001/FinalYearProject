@@ -70,6 +70,8 @@ DATASETS:
 6. [Route](https://openflights.org/data.html)
 7. [Europe Dataset](https://github.com/jwang0306/vehicle-routing-problem/tree/master/data)
 8. [Route-> separate source and destination nodes](https://github.com/tejasvi/routero/tree/master/data)
+9. https://archive-beta.ics.uci.edu/ml/datasets/3d+road+network+north+jutland+denmark
+10. https://archive-beta.ics.uci.edu/ml/datasets/vehicle+routing+and+scheduling+problems
 
 
 ## To decide:
