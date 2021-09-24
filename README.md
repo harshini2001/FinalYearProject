@@ -62,6 +62,64 @@ DATASETS:
     - Safety and security
     - Economic Health
     - Ecosystem impacts
+ - Factors:  
+    - Depot:
+        Frequencies of item-calculated from dataset using DepotId
+        Used for quick transport of goods
+        Frequent depot-> delivery started as and when the orders are placed
+        Less frequent depot-> delivery process must wait until some amt -> reached.
+
+    - Cost:
+
+
+    - Distance and time:
+          Optimal path -> less distance and less time.
+
+    - Delivery urgency:
+          If an order needs urgent delivery(Ex: amazon prime subscribers vs normal users),
+          routing must be planned accordingly. cost -> increase
+
+
+    - Fuel efficiency, carbon emissions:
+          (is there any cnxn bw traffic condition and fuel efficiency?)
+          Suggest route which decrease the carbon emissions.
+          and same with fuel efficiency.
+
+    - Freshness Degradation:
+          When the order is veggies,..
+          consider the time
+
+    - Road, Traffic and weather:
+          Main problem is we have to get real time data for predicting the current traffics, weather and road condition.
+
+    - Vehicle conditions:
+          Depends on the size of vehicle. if it is a big truck, we can only suggest highways....
+
+    - Driving hours and rest:
+          Consider rest time
+
+     - Safety and security:
+          may be we can consider the safety of the goods ( type of goods)
+          Packaging cost 
+
+     - Economic health:
+     - Ecosystem impacts:
+          similiar to carbon emissions
+
+     - Capacity of the vehicle
+
+
+IP:
+Set of orders
+and also factors
+
+OP:
+Total cost after considering the factors and
+Optimal path
+
+(Hierarchy)
+
+
 - OUTPUT: Routes + time factor => best k solutions
 - METHODOLOGY: Equation based on all factors - try to optimise the score 
 
