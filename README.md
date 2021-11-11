@@ -1,4 +1,10 @@
 # FinalYearProject
+
+Truck details:
+[Truck](https://truckingresearch.org/wp-content/uploads/2017/10/ATRI-Operational-Costs-of-Trucking-2017-10-2017.pdf)
+
+
+
 DATASETS:
 
 0. [California distance chart](https://mileagemath.com/distance/california)
